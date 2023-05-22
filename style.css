@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+}
+
+.background {
+    background: url(assets/img4k2.jpg) center;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    position: absolute;
+    filter: blur(30px);
+    z-index: -1;
+}
+
+.porcentaje {
+    font-size: 6em;
+    color: white;
+}
+
