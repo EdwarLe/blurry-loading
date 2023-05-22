@@ -25,5 +25,7 @@ body {
 .porcentaje {
     font-size: 6em;
     color: white;
+    opacity: 100%;
+    font-weight: bold;
 }
 
